@@ -5,7 +5,7 @@ public class Person {
     private final int yearOfBirth;
     private final Gender gender;
 
-    private final static int actualYear = 2018;
+    private final static int actualYear = 2019;
 
     public Person(String name, int yearOfBirth, Gender gender) {
         this.name = name;
