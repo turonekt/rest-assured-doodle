@@ -1,16 +1,16 @@
 package com.kainos.java.training.exeptions;
 
-public class Person {
+public class Personaa {
     private String name;
     private int yearOfBirth;
 
-    public Person(String name, int yearOfBirth) {
+    public Personaa(String name, int yearOfBirth) {
         this.name = name;
         this.yearOfBirth = yearOfBirth;
     }
 
-    static int calculateAgeOfPersonInGivenYear(Person person, int givenYear) throws Exception {
-        int age = givenYear - person.yearOfBirth;
+    static int calculateAgeOfPersonInGivenYear(Personaa personaa, int givenYear) throws Exception {
+        int age = givenYear - personaa.yearOfBirth;
 
         if (age<0){
             throw new Exception("Cannot calculate age");
@@ -19,7 +19,7 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        Person jack = new Person("Jack", 1945);
+        Personaa jack = new Personaa("Jack", 1945);
         try {
             System.out.println(calculateAgeOfPersonInGivenYear(jack, 2019));
         } catch (Exception e) {
