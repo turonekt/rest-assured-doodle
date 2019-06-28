@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05f37931-24c2-4ed1-afa7-145a336ddb96" name="Default Changelist" comment="Interface">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KainosTraining2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kainos/java/interfaces/Drum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kainos/java/interfaces/Guitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kainos/java/interfaces/Instrumental.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kainos/java/interfaces/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kainos/java/training/exeptions/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kainos/java/training/exeptions/InsufficientFundsExeption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kainos/java/training/exeptions/MainBankException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kainos/java/training/exeptions/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kainos/java/trainings/enums/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kainos/java/trainings/enums/Shirt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kainos/java/trainings/enums/ShirtShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kainos/java/trainings/enums/ShirtSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kainosTraining/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="05f37931-24c2-4ed1-afa7-145a336ddb96" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,11 +63,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kainos/java/interfaces/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/kainos/java/interfaces/Talkable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -115,8 +104,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -308,6 +297,14 @@
       <option name="presentableId" value="Default" />
       <updated>1561708197680</updated>
     </task>
+    <task id="LOCAL-00001" summary="Interface">
+      <created>1561722316834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561722316834</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -321,13 +318,13 @@
       <window_info id="Image Layers" order="4" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.16246851" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.30160427" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.30160427" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -480,6 +477,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kainos/java/interfaces/Talkable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
