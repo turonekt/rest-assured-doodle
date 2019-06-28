@@ -10,5 +10,11 @@ public class Main {
         for (Instrumental instrument:instruments){
             instrument.play();
         }
+
+        Philosopher kant = new Philosopher();
+        kant.saySomething();
+
+        Drunkman drunkMan = new Drunkman();
+        drunkMan.saySomething();
     }
 }
