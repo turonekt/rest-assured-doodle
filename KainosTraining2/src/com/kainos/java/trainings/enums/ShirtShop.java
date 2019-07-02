@@ -31,21 +31,25 @@ public class ShirtShop {
 
     public static void main(String[] args){
         Shirt T1 = new Shirt(ShirtSize.L, Color.RED, 5.3);
-        Shirt T2 = new Shirt(ShirtSize.XL, Color.RED, 12.5);
+ //       Shirt T2 = new Shirt(ShirtSize.XL, Color.RED, 12.5);
         Shirt T3 = new Shirt(ShirtSize.M, Color.WHITE, 12.0);
         Shirt T4 = new Shirt(ShirtSize.L, Color.YELLOW, 8.5);
         Shirt T5 = new Shirt(ShirtSize.S, Color.RED, 12.5);
-        Shirt T6 = new Shirt(ShirtSize.XL, Color.RED, 1.5);
+  //      Shirt T6 = new Shirt(ShirtSize.XL, Color.RED, 1.5);
 
-        Shirt[] availableShirts = new Shirt[]{T1, T2, T3, T4, T5, T6};
+        Shirt[] availableShirts = new Shirt[]{T1, T3, T4, T5,};
 
         ShirtShop shop = new ShirtShop("Shop", availableShirts);
 
         Shirt purchasedShirt = shop.buyShirt(ShirtSize.XL,Color.RED,12.5);
-        if(! purchasedShirt.equals(null)){
-           System.out.println(purchasedShirt);
-        }
-        else{
+        try {
+            if (!purchasedShirt.equals(null)) {
+                System.out.println(purchasedShirt);
+            } else {
+                System.out.println("Null shirts");
+            }
+        } catch (Exception e) {
+           // e.printStackTrace();
             System.out.println("Null shirts");
         }
     }
